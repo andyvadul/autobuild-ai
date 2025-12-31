@@ -1,3 +1,5 @@
+> 🚧 **Coming January 2025** — Course content is actively being developed. Star this repo to get notified when modules launch.
+ 
 # Autobuild.ai
 
 > **Your Spec, AI's Creation** — Build production-ready applications by writing specifications while AI handles all the code
