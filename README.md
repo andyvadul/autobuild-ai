@@ -37,17 +37,20 @@ A free, open-source course that teaches business professionals to build real app
 
 ## Course Structure
 
-| Module | Topic | Duration |
-|--------|-------|----------|
-| 1 | How Autobuild Works | 2-3 hours |
-| 2 | The Spec Templates | 3-4 hours |
-| 3 | Your First Autobuild | 3-4 hours |
-| 4 | The AI Team | 3-4 hours |
-| 5 | From Prototype to Production | 3-4 hours |
-| 6 | Advanced Patterns | 2-3 hours |
-| 7 | Capstone Project | 4-6 hours |
+| Module | Topic | Lessons |
+|--------|-------|---------|
+| 1 | The Autobuild Way | 5 |
+| 2 | Writing Your Spec | 5 |
+| 3 | Prototype with Claude Web | 5 |
+| 4 | Local Dev with Claude Code | 5 |
+| 5 | Agent Handoff | 5 |
+| 6 | Monitoring & Testing | 5 |
+| 7 | Going Multi-Agent | 5 |
+| 8 | Production Hardening | 5 |
+| 9 | Deployment | 5 |
+| 10 | What's Next | 5 |
 
-**Total: ~15-20 hours**
+**Total: 10 modules, 50 lessons, ~15-20 hours**
 
 ## Documentation
 
@@ -83,4 +86,4 @@ This course is a personal project created on my own time using my own resources.
 
 ---
 
-**Ready to build? Start with [Module 1: How Autobuild Works](docs/module-01-how-it-works/index.md)**
+**Ready to build? Start with [Module 1: The Autobuild Way](docs/course-content.md#module-1-the-autobuild-way)**
