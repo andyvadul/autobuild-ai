@@ -36,10 +36,13 @@ Enable business professionals to build THEIR OWN production-ready applications w
 │   MODULE 3: Hand off to AI Agents for production build                   │
 │        │                                                                 │
 │        ▼                                                                 │
-│   MODULE 4: Production-ready (security, costs, deployment)               │
+│   MODULE 4: Agent monitoring, testing & continuous build                 │
 │        │                                                                 │
 │        ▼                                                                 │
-│   MODULE 5: Advanced features (APIs, auth, AI capabilities)              │
+│   MODULE 5: Production-ready (security, costs, deployment)               │
+│        │                                                                 │
+│        ▼                                                                 │
+│   MODULE 6: Advanced features (APIs, auth, AI capabilities)              │
 │        │                                                                 │
 │        ▼                                                                 │
 │   CAPSTONE: Deploy YOUR app live                                         │
@@ -171,9 +174,9 @@ But **you're not building the task tracker** — you're building YOUR app.
 
 ## Course Modules
 
-**Total Duration:** ~12-16 hours
+**Total Duration:** ~14-18 hours
 **Format:** Micro-learning videos (5-15 min each) + hands-on building YOUR app
-**Modules:** 5 core + 1 capstone
+**Modules:** 6 core + 1 capstone
 
 ---
 
@@ -268,20 +271,54 @@ Your prototype works, but it's not production-ready. Now you hand it off to spec
 
 ---
 
-### Module 4: Production-Ready
-**Duration:** 2-3 hours | **Lessons:** 7
+### Module 4: Agent Monitoring & Continuous Build
+**Duration:** 2-3 hours | **Lessons:** 8
 
-Your app is built. Now make it production-ready: secure, cost-effective, and deployable.
+Your agents are building. Now learn to monitor them, test their output, course-correct when needed, and expand a single-agent workflow into a full agentic pipeline.
 
 | Lesson | Title | Duration | Type |
 |--------|-------|----------|------|
-| 4.1 | What "Production-Ready" Actually Means | 12 min | Concept |
-| 4.2 | Security Basics for AI-Generated Apps | 15 min | Concept |
-| 4.3 | Cost Management: Keeping AI Bills Under Control | 15 min | Concept + Tools |
-| 4.4 | Error Handling and Edge Cases | 15 min | Hands-on |
-| 4.5 | Deployment Options: Where to Host Your App | 18 min | Overview |
-| 4.6 | Deploying Your App (Vercel/Railway/Fly.io) | 20 min | Hands-on |
-| 4.7 | Monitoring and Maintenance | 12 min | Concept + Setup |
+| 4.1 | Why Monitor Your Agents? | 10 min | Concept |
+| 4.2 | Reading Agent Logs and Understanding Output | 15 min | Hands-on |
+| 4.3 | Testing Agent-Generated Code | 18 min | Hands-on |
+| 4.4 | Course Correction: When Agents Go Off Track | 15 min | Decision Guide |
+| 4.5 | The Feedback Loop: Spec → Build → Test → Refine | 12 min | Concept |
+| 4.6 | From Single Dev Agent to Multi-Agent Pipeline | 20 min | Hands-on |
+| 4.7 | Continuous Build: Keeping Agents Running | 15 min | Concept + Setup |
+| 4.8 | When to Stop and When to Let It Run | 10 min | Decision Guide |
+
+**Learning Outcomes:**
+- [ ] Monitor agent activity and understand what they're doing
+- [ ] Test agent output before accepting it
+- [ ] Course-correct when agents produce unexpected results
+- [ ] Expand from dev-only to full agentic pipeline (Dev → QA → Docs)
+
+**Your App Progress:** Refined codebase with tested, validated agent output
+
+**Reference:** See how Task Tracker was monitored and refined
+
+**Key Concepts Introduced:**
+- **Agent Monitoring:** Watching what agents do without micromanaging
+- **Course Correction:** Adjusting specs or prompts when output drifts
+- **Continuous Build:** Letting agents iterate while you review
+- **Agentic Expansion:** Adding QA, Docs, and Review agents to your pipeline
+
+---
+
+### Module 5: Production-Ready
+**Duration:** 2-3 hours | **Lessons:** 7
+
+Your app is built and tested. Now make it production-ready: secure, cost-effective, and deployable.
+
+| Lesson | Title | Duration | Type |
+|--------|-------|----------|------|
+| 5.1 | What "Production-Ready" Actually Means | 12 min | Concept |
+| 5.2 | Security Basics for AI-Generated Apps | 15 min | Concept |
+| 5.3 | Cost Management: Keeping AI Bills Under Control | 15 min | Concept + Tools |
+| 5.4 | Error Handling and Edge Cases | 15 min | Hands-on |
+| 5.5 | Deployment Options: Where to Host Your App | 18 min | Overview |
+| 5.6 | Deploying Your App (Vercel/Railway/Fly.io) | 20 min | Hands-on |
+| 5.7 | Monitoring and Maintenance | 12 min | Concept + Setup |
 
 **Learning Outcomes:**
 - [ ] Secure YOUR app for production use
@@ -295,19 +332,19 @@ Your app is built. Now make it production-ready: secure, cost-effective, and dep
 
 ---
 
-### Module 5: Advanced Patterns (Optional)
+### Module 6: Advanced Patterns (Optional)
 **Duration:** 2-3 hours | **Lessons:** 6
 
 Add powerful features to YOUR app — only if you need them.
 
 | Lesson | Title | Duration | Type |
 |--------|-------|----------|------|
-| 5.1 | Integrating with External APIs and Services | 18 min | Hands-on |
-| 5.2 | Authentication and User Management | 18 min | Hands-on |
-| 5.3 | Database Design for Non-Developers | 18 min | Concept + Hands-on |
-| 5.4 | Adding AI Features (Chat, Search, Recommendations) | 20 min | Hands-on |
-| 5.5 | Mobile and Multi-Platform Considerations | 12 min | Concept |
-| 5.6 | The Model Context Protocol (MCP) for Extensibility | 15 min | Concept + Demo |
+| 6.1 | Integrating with External APIs and Services | 18 min | Hands-on |
+| 6.2 | Authentication and User Management | 18 min | Hands-on |
+| 6.3 | Database Design for Non-Developers | 18 min | Concept + Hands-on |
+| 6.4 | Adding AI Features (Chat, Search, Recommendations) | 20 min | Hands-on |
+| 6.5 | Mobile and Multi-Platform Considerations | 12 min | Concept |
+| 6.6 | The Model Context Protocol (MCP) for Extensibility | 15 min | Concept + Demo |
 
 **Learning Outcomes:**
 - [ ] Connect YOUR app to third-party services (if needed)
@@ -466,10 +503,11 @@ No sign-up required. No paywall. No upsells.
 ```yaml
 Document: Autobuild.ai Course Content
 Purpose: Student-facing course structure and learning path
-Version: 3.0
+Version: 4.0
 Created: 2025
 Approach: Build YOUR app throughout (not follow-along)
 Progression: Claude Web (prototype) → Claude Code (local) → Agents (production)
+New in v4: Module 4 - Agent Monitoring & Continuous Build
 ```
 
 ---
