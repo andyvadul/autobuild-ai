@@ -1,6 +1,6 @@
 # Autobuild.ai Course Content
 
-> **Your Spec, AI's Creation** — Build production-ready applications by writing specifications while AI handles all the code
+> **Your Spec, AI's Creation** — Build YOUR production-ready application by writing specifications while AI handles all the code
 
 ---
 
@@ -11,7 +11,7 @@
 3. [The Autobuild Methodology](#the-autobuild-methodology)
 4. [Course Modules](#course-modules)
 5. [Spec Templates](#spec-templates)
-6. [Capstone Projects](#capstone-projects)
+6. [Capstone: Deploy Your App](#capstone-deploy-your-app)
 7. [Resources](#resources)
 
 ---
@@ -20,49 +20,55 @@
 
 ### Mission Statement
 
-Enable business professionals to turn ideas into production-ready applications without writing code. You focus on what matters — features, impact, and business value — while AI agents handle all the technical implementation. Using proven spec templates and automated build pipelines, go from business idea to deployed app.
+Enable business professionals to build THEIR OWN production-ready applications without writing code. You bring a real problem to solve. We give you the methodology, templates, and guidance to build it — module by module — until you deploy it live in the capstone.
+
+### How This Course Works
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│   MODULE 1: Identify YOUR app idea                                       │
+│        │                                                                 │
+│        ▼                                                                 │
+│   MODULE 2: Write the spec for YOUR app                                  │
+│        │                                                                 │
+│        ▼                                                                 │
+│   MODULE 3: Build the first working version of YOUR app                  │
+│        │                                                                 │
+│        ▼                                                                 │
+│   MODULE 4: Refine YOUR app with multi-agent workflow                    │
+│        │                                                                 │
+│        ▼                                                                 │
+│   MODULE 5: Prepare YOUR app for production                              │
+│        │                                                                 │
+│        ▼                                                                 │
+│   MODULE 6: Add advanced features to YOUR app                            │
+│        │                                                                 │
+│        ▼                                                                 │
+│   CAPSTONE: Deploy YOUR app live                                         │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
 ### What Makes This Different
 
 | Aspect | Autobuild.ai | Typical AI/Coding Courses |
 |--------|--------------|---------------------------|
+| **What You Build** | YOUR app (your idea, your problem) | Follow-along tutorial app |
 | **Your Role** | Think about business, fill in templates | Learn to code |
 | **AI's Role** | Writes ALL the code | Assists your coding |
 | **You Touch Code?** | Never | Yes, constantly |
-| **Output** | Production app, deployed | Portfolio exercise |
-| **Time Investment** | Hours on specs, not syntax | Weeks learning languages |
-| **Access** | Completely free, open source | $50-500+ |
+| **Output** | YOUR app, deployed and live | Portfolio exercise you'll never use |
+| **Capstone** | Deploy what you've been building | Build something new at the end |
 
-### The Autobuild Promise
+### The Reference Example: Task Tracker
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│   YOU FOCUS ON:                    AI HANDLES:                          │
-│   ─────────────                    ───────────                          │
-│                                                                          │
-│   ✓ What features to build         ✓ Python, JavaScript, React          │
-│   ✓ Who the users are              ✓ Database schemas                   │
-│   ✓ Business logic & rules         ✓ API endpoints                      │
-│   ✓ How to sell it                 ✓ Authentication                     │
-│   ✓ Pricing & impact               ✓ Deployment                         │
-│   ✓ User experience                ✓ Testing                            │
-│                                                                          │
-│   YOUR INPUT:          ───────────────────►      YOUR OUTPUT:           │
-│   Spec Template                                  Production App         │
-│   (business terms)                               (deployed & working)   │
-│                                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+Throughout the course, we use a **Task Tracker** as a reference example. You can:
+- Look at its spec to understand how to write yours
+- Compare your app's progress to it
+- Use it as a fallback if you get stuck
 
-### Course Goals
-
-- Enable technical/semi-technical non-developers to build real, production-ready business applications
-- Teach spec-first design methodology as the foundation for AI-assisted development
-- Demonstrate how Dev Agents, QA Agents, and other AI agents work together
-- Build a community of business builders using AI agents
-- Offer a pathway without hype in the agentic development space
-- Create reusable patterns and templates for the community
+But **you're not building the task tracker** — you're building YOUR app.
 
 ---
 
@@ -74,33 +80,30 @@ Enable business professionals to turn ideas into production-ready applications w
 - **Background:** Run teams, processes, or departments
 - **Technical level:** Comfortable with spreadsheets, basic automation (Zapier, etc.)
 - **Goal:** Build internal tools and automate workflows
-- **Time commitment:** 10-15 hours total
-- **Needs:** Clear methodology, templates, step-by-step guidance
+- **What they'll build:** Custom dashboards, approval workflows, team trackers
 
 #### 2. Founders / Entrepreneurs
 - **Background:** Building a business, wearing many hats
 - **Technical level:** Can read code, maybe write basic scripts
 - **Goal:** Build MVPs and prototypes without hiring developers
-- **Time commitment:** 15-20 hours (motivated to go deep)
-- **Needs:** Speed to market, production-ready patterns, cost management
+- **What they'll build:** Customer portals, booking systems, marketplaces
 
 #### 3. Product Managers / Business Analysts
 - **Background:** Write requirements, manage backlogs, work with dev teams
 - **Technical level:** Understand software concepts, limited coding
 - **Goal:** Prototype ideas, build proof-of-concepts, reduce dev dependency
-- **Time commitment:** 10-15 hours
-- **Needs:** Spec-first approach (already their strength), AI agent orchestration
+- **What they'll build:** Feature prototypes, internal tools, data dashboards
 
 #### 4. Citizen Developers
 - **Background:** IT-adjacent roles, power users
 - **Technical level:** Some coding, comfortable with low-code tools
 - **Goal:** Level up from no-code/low-code to production apps
-- **Time commitment:** 15-20 hours
-- **Needs:** Bridge from low-code thinking to agentic development
+- **What they'll build:** Anything their business needs
 
 ### Prerequisites
 
 **Required:**
+- **A real app idea** — Something you actually want to build
 - Ability to dictate/write clear requirements (what you want built)
 - Basic understanding of how software works (not how to code it)
 - Comfort with command line basics (cd, ls, copy-paste commands)
@@ -159,7 +162,7 @@ Enable business professionals to turn ideas into production-ready applications w
 │   STEP 4: SHIP                                                          │
 │   ────────────                                                          │
 │   ┌─────────────────────────────────────────┐                           │
-│   │  🚀 PRODUCTION APP                      │                           │
+│   │  🚀 YOUR PRODUCTION APP                 │                           │
 │   │     Live on the internet                │                           │
 │   │     Ready for users                     │                           │
 │   └─────────────────────────────────────────┘                           │
@@ -172,7 +175,7 @@ Enable business professionals to turn ideas into production-ready applications w
 ## Course Modules
 
 **Total Duration:** ~15-20 hours
-**Format:** Micro-learning videos (5-15 min each) + hands-on building
+**Format:** Micro-learning videos (5-15 min each) + hands-on building YOUR app
 **Modules:** 6 core + 1 capstone
 
 ---
@@ -186,15 +189,17 @@ Enable business professionals to turn ideas into production-ready applications w
 | 1.2 | How AI Agents Build Apps From Specs | 12 min | Concept |
 | 1.3 | Your Role: Business Thinking, Not Technical Thinking | 15 min | Concept |
 | 1.4 | The Autobuild Toolkit: IDEs, Agents, Templates | 15 min | Overview |
-| 1.5 | What Kinds of Apps Can You Build? | 10 min | Examples |
+| 1.5 | What Kinds of Apps Can You Build? (Idea Validation) | 10 min | Examples |
 | 1.6 | Setting Up Your Autobuild Environment | 20 min | Hands-on |
 
 **Learning Outcomes:**
 - [ ] Understand how AI agents turn specs into working code
-- [ ] Know what types of business applications are good fits
+- [ ] Identify YOUR app idea and validate it's a good fit
 - [ ] Have your autobuild environment ready to go
 
-**Project:** Generate your first "Hello World" app from a one-line spec
+**Your App Progress:** Identify and validate your app idea
+
+**Reference:** See how the Task Tracker idea was validated
 
 ---
 
@@ -212,12 +217,14 @@ Enable business professionals to turn ideas into production-ready applications w
 | 2.7 | Common Mistakes and How to Avoid Them | 12 min | Tips |
 
 **Learning Outcomes:**
-- [ ] Fill in the complete Autobuild spec template
+- [ ] Fill in the complete spec template FOR YOUR APP
 - [ ] Describe features in business terms (not technical)
 - [ ] Define clear success criteria for AI to target
 - [ ] Avoid common spec mistakes that confuse AI
 
-**Project:** Complete spec template for a simple task tracking app
+**Your App Progress:** Complete spec template for YOUR app
+
+**Reference:** Compare your spec to the Task Tracker spec
 
 ---
 
@@ -232,15 +239,17 @@ Enable business professionals to turn ideas into production-ready applications w
 | 3.4 | The QA Agent Checks the Work | 20 min | Hands-on |
 | 3.5 | Reviewing Results: Does It Match Your Spec? | 25 min | Hands-on |
 | 3.6 | Refining: Tweaking Specs When Output Isn't Right | 15 min | Hands-on |
-| 3.7 | Your App Is Built — Now What? | 10 min | Next Steps |
+| 3.7 | Your App Is Running — First Milestone! | 10 min | Celebration |
 
 **Learning Outcomes:**
-- [ ] Run the complete autobuild pipeline from spec to app
+- [ ] Run the complete autobuild pipeline on YOUR spec
 - [ ] Understand what AI agents are doing (without doing it yourself)
 - [ ] Review AI output and identify what needs refinement
 - [ ] Iterate on specs to get the result you want
 
-**Project:** Build a working task management app from your Module 2 spec
+**Your App Progress:** First working version of YOUR app running locally
+
+**Reference:** Watch the Task Tracker build, then build yours
 
 ---
 
@@ -263,7 +272,9 @@ Enable business professionals to turn ideas into production-ready applications w
 - [ ] Recognize common handoff problems and how to fix them
 - [ ] Trust the automation while maintaining oversight
 
-**Project:** Observe and troubleshoot a multi-agent build session
+**Your App Progress:** Refine YOUR app using multi-agent workflow
+
+**Reference:** Observe a multi-agent session on the Task Tracker
 
 ---
 
@@ -282,16 +293,18 @@ Enable business professionals to turn ideas into production-ready applications w
 | 5.8 | When to Bring in Real Developers | 10 min | Decision Framework |
 
 **Learning Outcomes:**
-- [ ] Harden an AI-built application for production use
-- [ ] Deploy to cloud platforms (Vercel, Railway, etc.)
+- [ ] Harden YOUR app for production use
+- [ ] Choose the right deployment platform for YOUR app
 - [ ] Monitor application health and costs
 - [ ] Plan for ongoing maintenance
 
-**Project:** Deploy your task management app to production
+**Your App Progress:** YOUR app is production-ready
+
+**Reference:** See how Task Tracker was hardened for production
 
 ---
 
-### Module 6: Advanced Patterns and Real-World Applications
+### Module 6: Advanced Patterns
 **Duration:** 2-3 hours | **Lessons:** 6
 
 | Lesson | Title | Duration | Type |
@@ -304,19 +317,51 @@ Enable business professionals to turn ideas into production-ready applications w
 | 6.6 | The Model Context Protocol (MCP) for Extensibility | 15 min | Concept + Demo |
 
 **Learning Outcomes:**
-- [ ] Connect applications to third-party services
-- [ ] Add user authentication without security expertise
-- [ ] Embed AI capabilities into your applications
+- [ ] Connect YOUR app to third-party services (if needed)
+- [ ] Add user authentication (if needed)
+- [ ] Embed AI capabilities into YOUR app (if desired)
 - [ ] Understand emerging patterns in agentic development
 
-**Project:** Add authentication and an AI chatbot feature to your app
+**Your App Progress:** Add advanced features to YOUR app (optional based on your needs)
+
+**Reference:** See how authentication was added to Task Tracker
 
 ---
 
-### Module 7: Capstone — Autobuild Your Business App
+### Module 7: Capstone — Deploy YOUR App
 **Duration:** 4-6 hours | **Self-directed**
 
-See [Capstone Projects](#capstone-projects) below.
+This isn't a new project — it's the **completion** of what you've been building.
+
+#### What You Do
+
+1. **Final Polish** — Review YOUR app against your original spec
+2. **Deploy** — Push YOUR app to production (Vercel, Railway, etc.)
+3. **Present** — Record a 2-3 minute walkthrough
+4. **Share** — Post to the community showcase
+
+#### What You Deliver
+
+- [ ] YOUR completed spec template
+- [ ] YOUR working app (deployed and accessible via URL)
+- [ ] Brief video walkthrough (2-3 min) of YOUR app
+- [ ] Cost estimate (what will it cost to run YOUR app?)
+
+#### What You DON'T Deliver
+
+- ❌ Code explanations
+- ❌ Technical architecture docs
+- ❌ Test coverage reports
+
+This is about **business outcomes**, not technical artifacts.
+
+#### Success Criteria
+
+Your app is successful if:
+- It solves the problem you identified in Module 1
+- It matches the spec you wrote in Module 2
+- It's live and accessible to users
+- You can explain what it does in business terms
 
 ---
 
@@ -344,60 +389,45 @@ The main spec template includes these sections:
 6. **Success Criteria** — How you know it's working
 7. **Non-Goals** — What this app explicitly won't do
 
-### Example Specs
+### Reference Example Specs
 
-The course includes complete, working example specs for:
+The course includes complete, working example specs you can reference:
 
-- **Task Tracker** — Simple personal task management
+- **Task Tracker** — Simple personal task management (primary reference)
 - **Booking System** — Appointment scheduling with calendar
 - **Client Portal** — Client-facing project/invoice viewer
 - **Dashboard** — KPI tracking and visualization
 
+Use these to understand the spec format, not as apps to build.
+
 ---
 
-## Capstone Projects
+## Capstone: Deploy Your App
 
-### Build One of These (or Your Own Idea)
+### App Ideas That Work Well
 
-#### 1. Client Portal
-- Clients log in and see their projects/invoices
-- You update status, they get notified
-- Simple, professional, done
+If you're not sure what to build, here are proven patterns:
 
-#### 2. Booking System
-- Customers book appointments/services
-- Calendar integration, reminders
-- Payment optional
+#### Internal Tools
+- Team task/project tracker
+- Approval workflow system
+- Inventory tracker
+- Meeting scheduler
 
-#### 3. Internal Dashboard
-- Track KPIs, sales, inventory — whatever matters
-- Pulls data from spreadsheets or forms
-- Auto-updates, shareable
+#### Customer-Facing
+- Booking/appointment system
+- Client portal (view projects/invoices)
+- Simple marketplace or directory
+- Feedback/survey collector
 
-#### 4. Simple Marketplace
-- List items/services for sale
-- Buyers can browse and inquire
-- Basic admin panel
+#### Data/Reporting
+- KPI dashboard
+- Report generator
+- Data entry forms
+- Simple CRM
 
-#### 5. Your Own Idea
-- Something for YOUR business or side project
-- Must be a real problem you want solved
-- Bonus: Actually launch it
-
-### What You Deliver
-
-- [ ] Completed spec template
-- [ ] Working app (deployed and accessible)
-- [ ] Brief video walkthrough (2-3 min)
-- [ ] Cost estimate (what will it cost to run?)
-
-### What You DON'T Deliver
-
-- ❌ Code explanations
-- ❌ Technical architecture docs
-- ❌ Test coverage reports
-
-This is about **business outcomes**, not technical artifacts.
+#### The Best Idea?
+**Something YOU actually need.** If you'll use it, you'll finish it.
 
 ---
 
@@ -423,7 +453,7 @@ Quick reference guides for:
 
 - **GitHub Discussions** — Q&A, show and tell, announcements
 - **Module-specific Q&A** — Get help with specific lessons
-- **Capstone Showcase** — Share your completed projects
+- **Capstone Showcase** — Share YOUR completed app
 
 ---
 
@@ -443,10 +473,11 @@ No sign-up required. No paywall. No upsells.
 ```yaml
 Document: Autobuild.ai Course Content
 Purpose: Student-facing course structure and learning path
-Version: 1.0
+Version: 2.0
 Created: 2025
+Approach: Build YOUR app throughout (not follow-along)
 ```
 
 ---
 
-**Ready to start? Begin with Module 1: How Autobuild Works.**
+**Ready to start? Bring your app idea to Module 1: How Autobuild Works.**
