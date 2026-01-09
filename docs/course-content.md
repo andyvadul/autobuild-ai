@@ -27,22 +27,19 @@ Enable business professionals to build THEIR OWN production-ready applications w
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                          │
-│   MODULE 1: Identify YOUR app idea                                       │
+│   MODULE 1: Identify YOUR idea + Write YOUR spec                         │
 │        │                                                                 │
 │        ▼                                                                 │
-│   MODULE 2: Write the spec for YOUR app                                  │
+│   MODULE 2: Build a prototype (Claude Web → Claude Code)                 │
 │        │                                                                 │
 │        ▼                                                                 │
-│   MODULE 3: Build the first working version of YOUR app                  │
+│   MODULE 3: Hand off to AI Agents for production build                   │
 │        │                                                                 │
 │        ▼                                                                 │
-│   MODULE 4: Refine YOUR app with multi-agent workflow                    │
+│   MODULE 4: Production-ready (security, costs, deployment)               │
 │        │                                                                 │
 │        ▼                                                                 │
-│   MODULE 5: Prepare YOUR app for production                              │
-│        │                                                                 │
-│        ▼                                                                 │
-│   MODULE 6: Add advanced features to YOUR app                            │
+│   MODULE 5: Advanced features (APIs, auth, AI capabilities)              │
 │        │                                                                 │
 │        ▼                                                                 │
 │   CAPSTONE: Deploy YOUR app live                                         │
@@ -106,44 +103,45 @@ But **you're not building the task tracker** — you're building YOUR app.
 - **A real app idea** — Something you actually want to build
 - Ability to dictate/write clear requirements (what you want built)
 - Basic understanding of how software works (not how to code it)
-- Comfort with command line basics (cd, ls, copy-paste commands)
 - Willingness to iterate and refine specs
 
 **NOT Required:**
 - Programming experience
 - Computer science background
 - Previous AI/ML knowledge
+- Command line experience (we'll teach you what you need)
 
 ---
 
 ## The Autobuild Methodology
 
-### The Autobuild Pipeline
+### The Three-Phase Pipeline
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                     THE AUTOBUILD PIPELINE                               │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│   STEP 1: SPEC                                                          │
-│   ────────────                                                          │
-│   You fill in the template:                                             │
+│   PHASE 1: SPEC + PROTOTYPE (You + Claude Web)                          │
+│   ─────────────────────────────────────────────                          │
 │   ┌─────────────────────────────────────────┐                           │
-│   │ SPEC TEMPLATE                           │                           │
-│   │                                         │                           │
-│   │ What does your app do? ____________     │                           │
-│   │ Who uses it? ____________               │                           │
-│   │ Key features:                           │                           │
-│   │   1. ____________                       │                           │
-│   │   2. ____________                       │                           │
-│   │   3. ____________                       │                           │
-│   │ What data does it store? ____________   │                           │
-│   │ Business rules: ____________            │                           │
+│   │ You: Write spec in plain English        │                           │
+│   │ Claude Web: Builds quick prototype      │                           │
+│   │ You: Validate it matches your vision    │                           │
 │   └─────────────────────────────────────────┘                           │
 │                         │                                                │
 │                         ▼                                                │
-│   STEP 2: BUILD (Automated)                                             │
-│   ─────────────────────────                                             │
+│   PHASE 2: LOCAL DEVELOPMENT (Claude Code)                              │
+│   ────────────────────────────────────────                               │
+│   ┌─────────────────────────────────────────┐                           │
+│   │ Transfer prototype to your machine      │                           │
+│   │ Claude Code: Refines and extends        │                           │
+│   │ You: Test locally, iterate on spec      │                           │
+│   └─────────────────────────────────────────┘                           │
+│                         │                                                │
+│                         ▼                                                │
+│   PHASE 3: PRODUCTION BUILD (AI Agent Team)                             │
+│   ─────────────────────────────────────────                              │
 │   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐                    │
 │   │  DEV AGENT  │─►│  QA AGENT   │─►│ DOCS AGENT  │                    │
 │   │             │  │             │  │             │                    │
@@ -152,15 +150,6 @@ But **you're not building the task tracker** — you're building YOUR app.
 │   └─────────────┘  └─────────────┘  └─────────────┘                    │
 │                         │                                                │
 │                         ▼                                                │
-│   STEP 3: REVIEW                                                        │
-│   ──────────────                                                        │
-│   You check: Does it match what I asked for?                            │
-│   • Yes → Deploy                                                        │
-│   • No → Refine spec, rebuild                                           │
-│                         │                                                │
-│                         ▼                                                │
-│   STEP 4: SHIP                                                          │
-│   ────────────                                                          │
 │   ┌─────────────────────────────────────────┐                           │
 │   │  🚀 YOUR PRODUCTION APP                 │                           │
 │   │     Live on the internet                │                           │
@@ -170,151 +159,155 @@ But **you're not building the task tracker** — you're building YOUR app.
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
+### Why This Progression?
+
+| Phase | Tool | Why |
+|-------|------|-----|
+| **Prototype** | Claude Web | Zero setup, instant feedback, validate ideas fast |
+| **Local Dev** | Claude Code | Full file access, larger context, real development environment |
+| **Production** | Agent Team | Specialized agents for quality, testing, documentation |
+
 ---
 
 ## Course Modules
 
-**Total Duration:** ~15-20 hours
+**Total Duration:** ~12-16 hours
 **Format:** Micro-learning videos (5-15 min each) + hands-on building YOUR app
-**Modules:** 6 core + 1 capstone
+**Modules:** 5 core + 1 capstone
 
 ---
 
-### Module 1: How Autobuild Works
-**Duration:** 2-3 hours | **Lessons:** 6
+### Module 1: Your Idea + Your Spec
+**Duration:** 3-4 hours | **Lessons:** 10
+
+This module combines ideation and spec writing — you leave with a validated idea AND a complete specification.
 
 | Lesson | Title | Duration | Type |
 |--------|-------|----------|------|
 | 1.1 | The End of "Learn to Code" (For Business Apps) | 10 min | Concept |
-| 1.2 | How AI Agents Build Apps From Specs | 12 min | Concept |
-| 1.3 | Your Role: Business Thinking, Not Technical Thinking | 15 min | Concept |
-| 1.4 | The Autobuild Toolkit: IDEs, Agents, Templates | 15 min | Overview |
-| 1.5 | What Kinds of Apps Can You Build? (Idea Validation) | 10 min | Examples |
-| 1.6 | Setting Up Your Autobuild Environment | 20 min | Hands-on |
+| 1.2 | How AI Builds Apps From Specs | 12 min | Concept |
+| 1.3 | What Kinds of Apps Can You Build? | 10 min | Examples |
+| 1.4 | Validating Your App Idea | 15 min | Hands-on |
+| 1.5 | The Autobuild Spec Template (Your Main Tool) | 15 min | Walkthrough |
+| 1.6 | Section 1: Describing Your App in Plain English | 15 min | Hands-on |
+| 1.7 | Section 2: Features and User Stories | 15 min | Hands-on |
+| 1.8 | Section 3: Data and Business Rules | 18 min | Hands-on |
+| 1.9 | Section 4: Success Criteria | 12 min | Hands-on |
+| 1.10 | Common Spec Mistakes and How to Avoid Them | 10 min | Tips |
 
 **Learning Outcomes:**
-- [ ] Understand how AI agents turn specs into working code
-- [ ] Identify YOUR app idea and validate it's a good fit
-- [ ] Have your autobuild environment ready to go
+- [ ] Validate YOUR app idea is a good fit for Autobuild
+- [ ] Understand what AI agents need to build your app
+- [ ] Complete the full spec template FOR YOUR APP
+- [ ] Define clear success criteria
 
-**Your App Progress:** Identify and validate your app idea
-
-**Reference:** See how the Task Tracker idea was validated
-
----
-
-### Module 2: The Spec Templates
-**Duration:** 3-4 hours | **Lessons:** 7
-
-| Lesson | Title | Duration | Type |
-|--------|-------|----------|------|
-| 2.1 | The Autobuild Spec Template (Your Main Tool) | 15 min | Walkthrough |
-| 2.2 | Section 1: Describing Your App in Plain English | 20 min | Hands-on |
-| 2.3 | Section 2: Listing Features Without Technical Jargon | 15 min | Hands-on |
-| 2.4 | Section 3: Defining Your Data (What Gets Stored) | 18 min | Hands-on |
-| 2.5 | Section 4: Business Rules and Logic | 20 min | Hands-on |
-| 2.6 | Section 5: What Success Looks Like (Acceptance Criteria) | 15 min | Hands-on |
-| 2.7 | Common Mistakes and How to Avoid Them | 12 min | Tips |
-
-**Learning Outcomes:**
-- [ ] Fill in the complete spec template FOR YOUR APP
-- [ ] Describe features in business terms (not technical)
-- [ ] Define clear success criteria for AI to target
-- [ ] Avoid common spec mistakes that confuse AI
-
-**Your App Progress:** Complete spec template for YOUR app
+**Your App Progress:** Validated idea + complete spec document
 
 **Reference:** Compare your spec to the Task Tracker spec
 
 ---
 
-### Module 3: Your First Autobuild
-**Duration:** 3-4 hours | **Lessons:** 7
-
-| Lesson | Title | Duration | Type |
-|--------|-------|----------|------|
-| 3.1 | From Spec to Running App (The Full Flow) | 15 min | Demo |
-| 3.2 | Feeding Your Spec to the Dev Agent | 20 min | Hands-on |
-| 3.3 | Watching AI Build (What's Happening Behind the Scenes) | 18 min | Explanation |
-| 3.4 | The QA Agent Checks the Work | 20 min | Hands-on |
-| 3.5 | Reviewing Results: Does It Match Your Spec? | 25 min | Hands-on |
-| 3.6 | Refining: Tweaking Specs When Output Isn't Right | 15 min | Hands-on |
-| 3.7 | Your App Is Running — First Milestone! | 10 min | Celebration |
-
-**Learning Outcomes:**
-- [ ] Run the complete autobuild pipeline on YOUR spec
-- [ ] Understand what AI agents are doing (without doing it yourself)
-- [ ] Review AI output and identify what needs refinement
-- [ ] Iterate on specs to get the result you want
-
-**Your App Progress:** First working version of YOUR app running locally
-
-**Reference:** Watch the Task Tracker build, then build yours
-
----
-
-### Module 4: The AI Team Behind Autobuild
-**Duration:** 3-4 hours | **Lessons:** 7
-
-| Lesson | Title | Duration | Type |
-|--------|-------|----------|------|
-| 4.1 | Why Multiple Agents Work Better Than One | 12 min | Concept |
-| 4.2 | The Dev Agent: Your Code Writer | 18 min | Explanation |
-| 4.3 | The QA Agent: Your Quality Checker | 20 min | Explanation |
-| 4.4 | The Review Agent: Your Second Opinion | 15 min | Explanation |
-| 4.5 | The Docs Agent: Your Documentation Writer | 15 min | Explanation |
-| 4.6 | How Agents Hand Off Work to Each Other | 20 min | Concept |
-| 4.7 | When You Need to Step In (And When You Don't) | 12 min | Decision Guide |
-
-**Learning Outcomes:**
-- [ ] Understand what each agent does (without doing it yourself)
-- [ ] Know when the pipeline is working vs. when it needs help
-- [ ] Recognize common handoff problems and how to fix them
-- [ ] Trust the automation while maintaining oversight
-
-**Your App Progress:** Refine YOUR app using multi-agent workflow
-
-**Reference:** Observe a multi-agent session on the Task Tracker
-
----
-
-### Module 5: From Prototype to Production
+### Module 2: Build Your Prototype
 **Duration:** 3-4 hours | **Lessons:** 8
 
+Start in Claude Web for instant gratification, then transition to Claude Code for serious development. This module teaches you about context windows, token limits, and why local development matters.
+
 | Lesson | Title | Duration | Type |
 |--------|-------|----------|------|
-| 5.1 | What "Production-Ready" Actually Means | 12 min | Concept |
-| 5.2 | Cost Management: Keeping AI Bills Under Control | 18 min | Concept + Tools |
-| 5.3 | Security Basics for AI-Generated Apps | 15 min | Concept |
-| 5.4 | Error Handling and Edge Cases | 18 min | Hands-on |
-| 5.5 | Deployment Options: Where to Host Your App | 20 min | Overview |
-| 5.6 | Monitoring and Observability | 15 min | Concept + Setup |
-| 5.7 | Updating and Maintaining AI-Built Apps | 12 min | Concept |
-| 5.8 | When to Bring in Real Developers | 10 min | Decision Framework |
+| 2.1 | Why Start With a Prototype? | 10 min | Concept |
+| 2.2 | Claude Web: Your Instant Prototyping Tool | 15 min | Demo |
+| 2.3 | Feeding Your Spec to Claude Web | 20 min | Hands-on |
+| 2.4 | Understanding Context Windows and Token Limits | 15 min | Concept |
+| 2.5 | When Claude Web Hits Its Limits | 12 min | Explanation |
+| 2.6 | Setting Up Claude Code on Your Machine | 20 min | Hands-on |
+| 2.7 | Transferring Your Prototype to Local Development | 18 min | Hands-on |
+| 2.8 | Your Prototype Is Running Locally! | 10 min | Celebration |
 
 **Learning Outcomes:**
-- [ ] Harden YOUR app for production use
-- [ ] Choose the right deployment platform for YOUR app
-- [ ] Monitor application health and costs
-- [ ] Plan for ongoing maintenance
+- [ ] Build a working prototype using Claude Web
+- [ ] Understand context windows and why they matter
+- [ ] Set up Claude Code on your local machine
+- [ ] Transfer and run your prototype locally
 
-**Your App Progress:** YOUR app is production-ready
+**Your App Progress:** Working prototype running on your machine
 
-**Reference:** See how Task Tracker was hardened for production
+**Reference:** Watch the Task Tracker prototype being built
+
+**Key Concepts Introduced:**
+- **Context Window:** How much the AI can "remember" in one conversation
+- **Token Limits:** Why long conversations lose context
+- **Local Development:** Why your machine > cloud for serious work
 
 ---
 
-### Module 6: Advanced Patterns
-**Duration:** 2-3 hours | **Lessons:** 6
+### Module 3: From Prototype to Production (Agent Handoff)
+**Duration:** 3-4 hours | **Lessons:** 8
+
+Your prototype works, but it's not production-ready. Now you hand it off to specialized AI agents who will build the real thing — with proper architecture, testing, and documentation.
 
 | Lesson | Title | Duration | Type |
 |--------|-------|----------|------|
-| 6.1 | Integrating with External APIs and Services | 18 min | Hands-on |
-| 6.2 | Database Design for Non-Developers | 20 min | Concept + Hands-on |
-| 6.3 | Authentication and User Management | 18 min | Hands-on |
-| 6.4 | Adding AI Features to Your Apps (Chat, Search, etc.) | 20 min | Hands-on |
-| 6.5 | Mobile and Multi-Platform Considerations | 12 min | Concept |
-| 6.6 | The Model Context Protocol (MCP) for Extensibility | 15 min | Concept + Demo |
+| 3.1 | Prototype vs. Production: What's the Difference? | 12 min | Concept |
+| 3.2 | The AI Agent Team (Dev, QA, Docs, Review) | 18 min | Explanation |
+| 3.3 | Preparing Your Prototype for Agent Handoff | 15 min | Hands-on |
+| 3.4 | The Dev Agent Rebuilds Your App | 25 min | Hands-on |
+| 3.5 | The QA Agent Tests Everything | 20 min | Hands-on |
+| 3.6 | How Agents Hand Off Work to Each Other | 15 min | Concept |
+| 3.7 | Reviewing the Production Build | 20 min | Hands-on |
+| 3.8 | When You Need to Step In (And When You Don't) | 10 min | Decision Guide |
+
+**Learning Outcomes:**
+- [ ] Understand the difference between prototype and production code
+- [ ] Hand off your prototype to the AI agent team
+- [ ] Review agent-built code for correctness
+- [ ] Know when to intervene vs. trust the automation
+
+**Your App Progress:** Production-quality codebase built by agents
+
+**Reference:** Watch the Task Tracker agent handoff process
+
+---
+
+### Module 4: Production-Ready
+**Duration:** 2-3 hours | **Lessons:** 7
+
+Your app is built. Now make it production-ready: secure, cost-effective, and deployable.
+
+| Lesson | Title | Duration | Type |
+|--------|-------|----------|------|
+| 4.1 | What "Production-Ready" Actually Means | 12 min | Concept |
+| 4.2 | Security Basics for AI-Generated Apps | 15 min | Concept |
+| 4.3 | Cost Management: Keeping AI Bills Under Control | 15 min | Concept + Tools |
+| 4.4 | Error Handling and Edge Cases | 15 min | Hands-on |
+| 4.5 | Deployment Options: Where to Host Your App | 18 min | Overview |
+| 4.6 | Deploying Your App (Vercel/Railway/Fly.io) | 20 min | Hands-on |
+| 4.7 | Monitoring and Maintenance | 12 min | Concept + Setup |
+
+**Learning Outcomes:**
+- [ ] Secure YOUR app for production use
+- [ ] Choose the right deployment platform
+- [ ] Deploy YOUR app to the internet
+- [ ] Set up basic monitoring
+
+**Your App Progress:** YOUR app is deployed and live!
+
+**Reference:** See how Task Tracker was deployed
+
+---
+
+### Module 5: Advanced Patterns (Optional)
+**Duration:** 2-3 hours | **Lessons:** 6
+
+Add powerful features to YOUR app — only if you need them.
+
+| Lesson | Title | Duration | Type |
+|--------|-------|----------|------|
+| 5.1 | Integrating with External APIs and Services | 18 min | Hands-on |
+| 5.2 | Authentication and User Management | 18 min | Hands-on |
+| 5.3 | Database Design for Non-Developers | 18 min | Concept + Hands-on |
+| 5.4 | Adding AI Features (Chat, Search, Recommendations) | 20 min | Hands-on |
+| 5.5 | Mobile and Multi-Platform Considerations | 12 min | Concept |
+| 5.6 | The Model Context Protocol (MCP) for Extensibility | 15 min | Concept + Demo |
 
 **Learning Outcomes:**
 - [ ] Connect YOUR app to third-party services (if needed)
@@ -322,21 +315,21 @@ But **you're not building the task tracker** — you're building YOUR app.
 - [ ] Embed AI capabilities into YOUR app (if desired)
 - [ ] Understand emerging patterns in agentic development
 
-**Your App Progress:** Add advanced features to YOUR app (optional based on your needs)
+**Your App Progress:** Enhanced with advanced features (based on your needs)
 
-**Reference:** See how authentication was added to Task Tracker
+**Reference:** See how features were added to Task Tracker
 
 ---
 
-### Module 7: Capstone — Deploy YOUR App
-**Duration:** 4-6 hours | **Self-directed**
+### Capstone: Launch YOUR App
+**Duration:** 2-4 hours | **Self-directed**
 
-This isn't a new project — it's the **completion** of what you've been building.
+This isn't a new project — it's the **launch** of what you've been building.
 
 #### What You Do
 
 1. **Final Polish** — Review YOUR app against your original spec
-2. **Deploy** — Push YOUR app to production (Vercel, Railway, etc.)
+2. **Go Live** — Ensure YOUR app is deployed and accessible
 3. **Present** — Record a 2-3 minute walkthrough
 4. **Share** — Post to the community showcase
 
@@ -359,7 +352,7 @@ This is about **business outcomes**, not technical artifacts.
 
 Your app is successful if:
 - It solves the problem you identified in Module 1
-- It matches the spec you wrote in Module 2
+- It matches the spec you wrote
 - It's live and accessible to users
 - You can explain what it does in business terms
 
@@ -473,11 +466,12 @@ No sign-up required. No paywall. No upsells.
 ```yaml
 Document: Autobuild.ai Course Content
 Purpose: Student-facing course structure and learning path
-Version: 2.0
+Version: 3.0
 Created: 2025
 Approach: Build YOUR app throughout (not follow-along)
+Progression: Claude Web (prototype) → Claude Code (local) → Agents (production)
 ```
 
 ---
 
-**Ready to start? Bring your app idea to Module 1: How Autobuild Works.**
+**Ready to start? Bring your app idea to Module 1: Your Idea + Your Spec.**
